@@ -1,0 +1,412 @@
+/*--   Hero Area   --*/
+section#hero-area {
+  padding-top: 22rem;
+  padding-bottom: 22rem;
+  background: url("../img/header-bg-erawan.jpg") no-repeat transparent;
+  background-size: cover;
+  background-position: center center;
+}
+#hero-area .hero-title{    
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 8.5rem;
+}
+#hero-area .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+}
+#hero-area .btn{
+  margin-right: 5px;
+}
+#hero-area img.hero-img-right{
+  z-index: 5000;
+  position: absolute;
+  top: -40px;
+}
+
+
+/*--   hero-area-responsive   --*/
+@media(min-width:1320px) {
+  section#hero-area{}
+  #hero-area img.hero-img-right{
+    top: -40px;
+  }
+}
+@media(max-width:1080px) {
+  section#hero-area {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+  }
+  #hero-area .hero-title{
+    font-size: 52px;
+    line-height: 62px;
+  }
+  #hero-area .hero-subtitle{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media(max-width:840px) {
+  .hero-text{
+    text-align: center;
+    padding: 0px 70px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  .hero-text{
+    text-align: center;
+    padding: 0px 0px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #hero-area .hero-text .btn{
+    margin-top: 20px;
+  }
+}
+
+/*--   Clients   --*/
+section#clients{
+  background: #f9f9f9;
+}
+#clients img.client-logo{
+  width: 80%;
+  height: auto;
+  opacity: .5;
+  margin: 1.5rem auto;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#clients img.client-logo:hover{
+  opacity: 1;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+
+
+
+/*--   Features   --*/
+.features{}
+.features .content{
+  position: relative;
+  float: left;
+  margin-top: 60px;
+}
+.section-title-content .ico{
+  font-size: 9rem;
+  margin-bottom: 2rem;
+  float: none;
+}
+.features .content span{
+  display: block;
+  float: left;
+  margin-right: 30px;
+}
+.features .content .ico{
+  font-size: 5rem;
+  margin-bottom: 2rem;
+  float: none;
+}
+.features .content h4{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.features .content p{
+  margin-bottom: 4rem;
+}
+.features .feature-img-top{
+  position: relative;
+  left: -45%;
+  margin-top: -30rem;
+  margin-bottom: 5rem;
+  transform: rotate(145deg);
+    -ms-transform: rotate(145deg);
+    -moz-transform: rotate(145deg);
+    -webkit-transform: rotate(145deg);
+}
+.features .feature-img-right{
+  width: 150%;
+  max-width: inherit;
+  padding-left: 30px;
+}
+.features .feature-img-left{
+  width: 150%;
+  max-width: inherit;
+  padding-right: 30px;
+  margin-left: -50%;
+}
+.features .feature-img-bottom{
+  padding-top: 60px;
+  margin-bottom: -60px;
+}
+/*--   Features area image position Responsive  --*/
+@media(max-width:640px) {
+  .features .feature-img-right, .features .feature-img-left{
+    width: 100% !important;
+  }
+}
+
+
+/*--   Feature-1   --*/
+.feature-1{
+  padding-bottom: 0px;
+  background: #ffffff;
+}
+.feature-1 .feature-mobile-screen{
+  z-index: 3000;
+  position: absolute;
+  filter: drop-shadow(-42px 0 74px rgba(0,0,0,.2));
+    -webkit-filter: drop-shadow(-42px 0 74px rgba(0,0,0,.2));
+    -moz-filter: drop-shadow(-42px 0 74px rgba(0,0,0,.2));
+    -o-filter: drop-shadow(-42px 0 74px rgba(0,0,0,.2));
+  
+}
+.feature-1 .feature-img-full-width-bottom{
+  margin-top: 30px;
+}
+@media(max-width:1680px) {
+  .feature-1 .feature-mobile-screen{
+    max-width: 92%;
+  }
+}
+@media(max-width:1366px) {
+  .feature-1 .feature-mobile-screen{
+    max-width: 82%;
+  }
+}
+@media (max-width:1024px){
+  .feature-1 .feature-mobile-screen{
+    max-width: 85%;
+  }
+}
+@media (max-width:960px){
+  .feature-1 .feature-mobile-screen{
+    max-width: 98%;
+  }
+}
+@media(max-width:840px) {
+  .feature-1 .feature-mobile-screen{
+    max-width: 88%;
+  }
+}
+@media(max-width:770px) {
+  .feature-1 .feature-mobile-screen{
+    max-width: 85%;
+  }
+}
+
+
+.feature-1 .no-padding{
+  padding: 0px;
+  margin: 0px;
+}
+.feature-1 .border-light{
+  border: 2px solid #ffffff;
+}
+
+/*--   Feature-2   --*/
+.feature-2{
+  background: #ffffff;
+  padding-bottom: 0px;
+}
+.feature-2 .content .ico{
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.feature-2 .content p{
+  padding-left: 100px;
+}
+
+/*--   Feature-2   --*/
+@media(max-width:640px) {
+  .feature-2 .content-2{
+    margin-top: 0px;
+  }
+}
+
+
+/*--   Testimonials   --*/
+#testimonial{
+  background: #f9f9f9;
+}
+#testimonial .content{
+  padding: 2rem;
+}
+#testimonial .content:hover{
+  cursor: pointer;
+}
+.testimonial img{
+  width: 30%;
+  height: auto;
+}
+#testimonial .content h4{
+  margin-top: 2rem;
+}
+
+
+
+#testimonial .feedback-box {
+  font-size: 22px;
+  font-weight: 300;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #ffffff;
+  border: 2px solid #cdcdcd;
+  padding: 30px;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  position: relative;
+}
+#testimonial .feedback-box > .quote {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 50px;
+  color: #fff;
+  position: absolute;
+  top: -25px;
+  right: 20px;
+  background-color: #8c8c8c;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#testimonial .feedback-box > .arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #abacad;
+  position: absolute;
+  bottom: -16px;
+  left: 30px;
+  z-index: -5;
+}
+
+#testimonial .feedback-box:hover > .quote,
+#testimonial .feedback-box:hover > .person img{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#testimonial .feedback-box .person {
+  font-size: 16px;
+  font-weight: normal;
+  position: absolute;
+  white-space: nowrap;
+  bottom: -115px;
+  left: 15px;
+}
+#testimonial .feedback-box .person img{
+  width: 70px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2),0 1px 6px 0 rgba(0,0,0,0.19);
+}
+#testimonial .feedback-box .person .info {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0 0 10px;
+}
+#testimonial .feedback-box .feedback {
+  margin-bottom: 0;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 28px;
+}
+#testimonial .feedback-box {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+
+
+/*-- How it works Responsive --*/
+
+@media(max-width:1080px) {
+  #testimonial .content{
+    margin-bottom: 30px;
+    padding: 4rem;
+  }
+  #testimonial .content:hover{
+    padding: 4rem;
+  }
+}
+@media(max-width:640px) {
+  #testimonial .content{
+    padding: 3rem;
+  }
+  #testimonial .content:hover{
+    padding: 3rem;
+  }
+}
+@media(max-width:400px) {
+  #testimonial .content{
+    padding: 1.5rem;
+  }
+  #testimonial .content:hover{
+    padding: 1.5rem;
+  }
+}
+
+
+
+/*--   Call to Action   --*/
+.call-to-action{
+  min-height: 600px;
+  background: url("../img/header-bg-9.png") no-repeat green;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+.call-to-action .hero-title{    
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 8.5rem;
+}
+.call-to-action .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3.2rem;
+}
+.call-to-action .btn{
+  margin-right: 5px;
+}
+
+/*--   Call to Action Responsive   --*/
+@media(max-width:480px) {
+  .call-to-action .btn{
+    margin: 0px 0px 20px 0px;
+  }
+}

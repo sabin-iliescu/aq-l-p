@@ -1,0 +1,386 @@
+/*--   Hero Area   --*/
+section#hero-area {
+  padding-top: 22rem;
+  padding-bottom: 22rem;
+  background: url("../img/header-bg-erawan.jpg") no-repeat green;
+  background-size: cover;
+}
+
+.calivita-hero-text {
+    background: green;
+}
+
+section#hero-area .calivita-hero-text h1 {
+    font-size: 6rem;
+    line-height: 6.2rem;
+    text-align: center;
+    padding: 20px;
+    opacity: 1;
+}
+
+section#hero-area .calivita-hero-text h4 {
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    opacity: 1;
+}
+
+.calivita-medium-image-center {
+    margin: 0 auto;
+}
+
+#hero-area .hero-title{    
+    font-size: 6rem;
+    letter-spacing: -2px;
+    line-height: 8.5rem;
+}
+#hero-area .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+}
+#hero-area .btn{
+  margin-right: 5px;
+}
+#hero-area img.hero-img-right{
+  z-index: 5000;
+  position: absolute;
+  top: 13px;
+}
+
+/*--   hero-area-responsive   --*/
+@media(min-width:1320px) {
+  section#hero-area{}
+  #hero-area img.hero-img-right{
+    top: 13px;
+  }
+}
+@media(max-width:1080px) {
+  section#hero-area {
+    padding-top: 20rem;
+    padding-bottom: 14rem;
+  }
+  #hero-area .hero-title{
+    font-size: 52px;
+    line-height: 62px;
+  }
+  #hero-area .hero-subtitle{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media(max-width:840px) {
+  .hero-text{
+    text-align: center;
+    padding: 0px 70px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  #hero-area .hero-text{
+    margin-top: 0rem;
+    padding: 0px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #hero-area .hero-text .btn{
+    margin-top: 20px;
+  }
+}
+
+/*--   Clients   --*/
+section#ionizare-apa{
+  background: green;
+}
+#ionizare-apa img.client-logo{
+  width: 80%;
+  height: auto;
+  opacity: .5;
+  margin: 1.5rem auto;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#ionizare-apa img.client-logo:hover{
+  opacity: 1;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+
+/*--   Process   --*/
+#alcalinizare-apa{}
+#alcalinizare-apa .content{
+  padding: 2rem;
+}
+#alcalinizare-apa .content:hover{
+  cursor: pointer;
+}
+#alcalinizare-apa .content h4{
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+#alcalinizare-apa .ico{
+  font-size: 5rem;
+}
+
+/*-- Process Responsive --*/
+
+@media(max-width:1080px) {
+  #alcalinizare-apa .content{
+    margin-bottom: 30px;
+    padding: 4rem;
+  }
+  #alcalinizare-apa .content:hover{
+    padding: 4rem;
+  }
+}
+@media(max-width:640px) {
+  #alcalinizare-apa .content{
+    padding: 3rem;
+  }
+  #alcalinizare-apa .content:hover{
+    padding: 3rem;
+  }
+}
+@media(max-width:400px) {
+  #alcalinizare-apa .content{
+    padding: 1.5rem;
+  }
+  #alcalinizare-apa .content:hover{
+    padding: 1.5rem;
+  }
+}
+
+
+/*--   Features   --*/
+.features{}
+.features .content{
+  position: relative;
+  float: left;
+  margin-top: 60px;
+}
+.features .content span{
+  display: block;
+  float: left;
+  margin-right: 30px;
+}
+.features .content .ico{
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.features .content h4{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.features .content p{
+  margin-bottom: 4rem;
+}
+.features .feature-img-top{
+    position: relative;
+    left: -25%;
+    margin-top: -7rem;
+    margin-bottom: 2rem;
+  transform: rotate(145deg);
+    -ms-transform: rotate(145deg);
+    -moz-transform: rotate(145deg);
+    -webkit-transform: rotate(145deg);
+}
+.features .feature-img-right{
+  width: 150%;
+  max-width: inherit;
+  padding-left: 30px;
+}
+.features .feature-img-left{
+  width: 150%;
+  max-width: inherit;
+  padding-right: 30px;
+  margin-left: -50%;
+}
+.features .feature-img-bottom{
+  padding-top: 60px;
+  margin-bottom: -60px;
+}
+
+/*--   Features area image position Responsive  --*/
+@media(max-width:640px) {
+  .features .feature-img-right, .features .feature-img-left{
+    width: 100% !important;
+  }
+}
+
+
+/*--   Feature-1   --*/
+.feature-1{
+  background: green;
+  overflow: hidden;
+}
+
+/*--   Feature-2   --*/
+.feature-2{
+  padding-bottom: 0px;
+}
+.feature-2 .content .ico{
+  position: relative;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.feature-2 .content p{
+  padding-left: 100px;
+}
+
+/*--   Feature-2   --*/
+@media(max-width:640px) {
+  .feature-2 .content-2{
+    margin-top: 0px;
+  }
+}
+
+
+
+/*--   Call to Action   --*/
+.call-to-action{
+  min-height: 600px;
+  background: url("../img/apa-calivita-aqarion.jpg") no-repeat green;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+}
+.call-to-action .hero-title{    
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 8.5rem;
+}
+.call-to-action .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3.2rem;
+}
+.call-to-action .btn{
+  margin-right: 5px;
+}
+
+/*--   Call to Action Responsive   --*/
+@media(max-width:480px) {
+  .call-to-action .btn{
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+
+
+/*--   faq   --*/
+#faq{
+  background: green;
+}
+#faq .accordion-wrap{
+  margin-bottom: 30px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+#faq button.accordion {
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border: 1px solid #8C8C8C;
+    transition: 0.4s;
+    margin-top: -1px;
+}
+
+.aquarion-calivita-ico {
+    height: 100px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#faq button.accordion.active, button.accordion:hover {
+    background-color: #25252b !important;
+    border: 1px solid #25252b;
+    transition: 0.4s;
+}
+#faq div.panel {
+    padding: 0 18px;
+    background-color: transparent;
+    display: none;
+}
+#faq div.panel.show {
+  display: block !important;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#faq div.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0px;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#faq div.panel.show {
+  opacity: 1;
+  max-height: 500px;
+  padding: 2rem;
+  background-color: #494949;
+}
+#faq button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -3.5rem;
+    background: #fff;
+    padding: 3px 5px 3px 3px;
+}
+#faq button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    background: #FFB300;
+}
+
+/*--   FAQ Responsive   --*/
+@media(max-width:640px) {
+
+    .features .feature-img-top{
+        position: relative;
+        left: -25%;
+        margin-top: -3rem;
+        margin-bottom: 2rem;
+    }
+
+  #faq button.accordion h4{
+    padding-right: 25px;
+  }
+}

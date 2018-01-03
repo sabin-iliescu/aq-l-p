@@ -1,0 +1,201 @@
+/*--   Hero Area   --*/
+section#hero-area {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  background: #242425;
+}
+#hero-area .hero-title{    
+    font-size: 6rem;
+    letter-spacing: -2px;
+    line-height: 8.5rem;
+}
+#hero-area .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+}
+#hero-area img.hero-img-right{
+  z-index: 5000;
+  position: absolute;
+  top: -50px;
+  max-width: 150%;
+}
+
+/*--   hero-area-responsive   --*/
+@media(min-width:1320px) {
+  section#hero-area{}
+  #hero-area img.hero-img-right{
+    top: -40px;
+  }
+}
+@media(max-width:1080px) {
+  section#hero-area {
+    padding-top: 20rem;
+    padding-bottom: 14rem;
+  }
+  #hero-area .hero-title{
+    font-size: 52px;
+    line-height: 62px;
+  }
+  #hero-area .hero-subtitle{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media(max-width:840px) {
+  .hero-text{
+    text-align: center;
+    padding: 0px 50px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #hero-area .hero-text .btn{
+    margin-top: 20px;
+  }
+  .hero-text{
+    text-align: center;
+    padding: 0px 0px;
+  }
+}
+
+
+/*--   FAQ   --*/
+#faq{}
+#faq .accordion-wrap{
+  margin-bottom: 30px;
+}
+#faq button.accordion {
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    border: 1px solid #8C8C8C;
+    transition: 0.4s;
+    margin-top: -1px;
+}
+#faq button.accordion.active, button.accordion:hover {
+    background-color: #25252b !important;
+    border: 1px solid #25252b;
+    transition: 0.4s;
+}
+#faq div.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  display: none;
+}
+#faq div.panel.show {
+  display: block !important;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#faq div.panel {
+  padding: 0 18px;
+  background-color: transparent;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  margin: 0px;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#faq div.panel.show {
+  opacity: 1;
+  max-height: 500px;
+  padding: 2rem;
+  background-color: #494949;
+}
+#faq button.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    float: right;
+    margin-left: 5px;
+    margin-top: -3.5rem;
+    background: #fff;
+    padding: 3px 5px 3px 3px;
+}
+#faq button.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    background: #FFB300;
+}
+
+/*--   FAQ Responsive   --*/
+@media(max-width:640px) {
+  #faq button.accordion h4{
+    padding-right: 25px;
+  }
+}
+
+
+
+/*--   Call to Action  --*/
+.call-to-action{
+  background-color: #343446;
+  background-image: url("../img/patern-1-b.png");
+  padding: 60px 0;
+  background-repeat: repeat;
+  background-size: 214px 17px;
+  background-position: center, center;
+  background-attachment: scroll;
+}
+.call-to-action .hero-title{    
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 8.5rem;
+}
+.call-to-action .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3.5rem;
+}
+
+/*--   Responsive Call to Action  --*/
+@media(min-width:1080px) {
+  .call-to-action .btn{
+    margin-top: 80px;
+  }
+}
+@media(max-width:1080px) {
+  .call-to-action .hero-title, .call-to-action .hero-subtitle{
+    text-align: center;
+  }
+}
+@media(max-width:840px) {
+  .call-to-action .hero-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  .call-to-action.hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  .call-to-action .hero-text{
+    text-align: center;
+    padding: 0px 20px;
+  }
+}

@@ -1,0 +1,176 @@
+/* --- Primary Theme Color is #FB8C00 ---  */
+/* --- Secondery Color is #FFA726 ---  */
+
+
+/* ---Buttons---  */
+.btn:hover, .btn:focus, .btn:active{
+  color: #fff;
+}
+.btn-default{
+  background: #fff;
+  color: #FB8C00;
+  border: 2px solid transparent;
+}
+.btn-outline{
+  background: rgba(255, 255, 255, 0.5);
+  color: #FB8C00;
+  border: 2px solid #FB8C00;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-outline:hover, .btn-outline:focus, .btn-outline:active{
+  background: #FFA726;
+  border: 2px solid transparent;
+}
+.btn-primary{
+  background: #FB8C00;
+  color: #fff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  background: #FFA726;
+}
+.btn-lg:hover, .btn-lg:focus, .btn-lg:active{}
+
+.btn-android{
+  background: #A5CA39;
+  color: #fff;
+}
+.btn-ios{
+  background: #FE2665;
+  color: #fff;
+}
+.btn-osx{
+  background: #1887F3;
+  color: #fff;
+}
+.btn-windows{
+  background: #02AEF0;
+  color: #fff;
+}
+
+
+/*--   nav-bar   --*/
+.okayNav__menu-toggle span {
+  background: #FB8C00;
+}
+.okayNav__menu-toggle.icon--active span {
+  background: #FB8C00;
+}
+#nav-main li a.nav-link:hover, #nav-main li a.nav-link:focus, #nav-main li a.nav-link:active, #nav-main li.active a.nav-link {
+  border-bottom: 3px solid #FB8C00;
+  color: #FB8C00;
+}
+.sub-menu-panel{
+  border-top: 3px solid #FB8C00;
+  border-bottom: 3px solid #FB8C00;
+}
+li.sub-menu .sub-menu-panel a{
+  color: #212121; /* default color */
+}
+li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub-menu .sub-menu-panel a:active{
+  background: #FFA726;
+}
+
+
+
+
+/* ---Input Field--- */
+input {
+  background: #f9f9f9;
+}
+input:hover, input:focus, input:active {
+  background: #fff;
+}
+
+
+/*--   Icon Font Color   --*/
+.content-icon .ico{
+  color: #FB8C00;
+}
+
+
+/*--   Accordion   --*/
+button.accordion.active, button.accordion:hover {
+  color: #FB8C00 !important;
+}
+
+
+/*--   contact-form   --*/
+#leave-message input.form-control, #leave-message textarea.form-control{
+  border-bottom: 1px solid #FFA726;
+  color: #FB8C00;
+}
+#leave-message input.form-control:hover, 
+#leave-message input.form-control:active, 
+#leave-message input.form-controll:focus,
+#leave-message textarea.form-control:hover, 
+#leave-message textarea.form-control:active, 
+#leave-message textarea.form-controll:focus{
+  background: #fff;
+  color: #FB8C00;
+  border: 1px solid #FFA726;
+}
+
+/*--   Counter   --*/
+#hero-area .countdown {
+  color: #FB8C00;
+}
+#hero-area .countdown span{
+  background: rgba(253, 253, 253, 0.5);
+  border: 3px solid #FFA726;
+}
+#hero-area .countdown span p{
+  color: #FFA726;
+}
+
+
+/* Footer  */
+footer {
+  background: #dfdfdf;
+}
+footer li a{
+  color: #FFA726;
+}
+footer .social-icons a { 
+  color: #FFA726;
+  background: #fff;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+footer .social-icons a:hover { 
+  color: #fff;
+  background: #FB8C00;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+footer li a{
+  color: #8c8c8c;   /* default color */
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+footer li a:hover{
+  color: #FB8C00;
+  font-weight: 400;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+footer hr{
+  color: #FFA726;
+}
+
+
+
+/* contact page */
+#contact-address .content:hover .fa {
+  background-color: #FB8C00;
+}

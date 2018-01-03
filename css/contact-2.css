@@ -1,0 +1,156 @@
+/*--   Hero Area   --*/
+section#hero-area {
+  padding-top: 16rem;
+  padding-bottom: 16rem;
+  background: #242425;
+}
+#hero-area .hero-title{    
+    font-size: 6rem;
+    letter-spacing: -2px;
+    line-height: 8.5rem;
+}
+#hero-area .hero-subtitle{
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.2rem;
+    opacity: 0.5;
+    margin-bottom: 3rem;
+}
+#hero-area img.hero-img-right{
+  z-index: 5000;
+  position: absolute;
+  top: -50px;
+  max-width: 150%;
+}
+
+
+/*--   hero-area-responsive   --*/
+@media(min-width:1320px) {
+  section#hero-area{}
+  #hero-area img.hero-img-right{
+    top: -40px;
+  }
+}
+@media(max-width:1080px) {
+  section#hero-area {
+    padding-top: 20rem;
+    padding-bottom: 14rem;
+  }
+  #hero-area .hero-title{
+    font-size: 52px;
+    line-height: 62px;
+  }
+  #hero-area .hero-subtitle{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media(max-width:840px) {
+  .hero-text{
+    text-align: center;
+    padding: 0px 50px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 52px;
+  }
+  #hero-area .hero-text .btn{
+    margin-top: 20px;
+  }
+  .hero-text{
+    text-align: center;
+    padding: 0px 0px;
+  }
+}
+
+
+
+/*--   form   --*/
+
+#leave-message{
+  background: green;
+}
+#leave-message .section-sub-title{
+  margin-bottom: -20px;
+}
+#leave-message input.form-control, #leave-message textarea.form-control{
+  height: 48px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #8c8c8c;
+  box-shadow: none;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-style: oblique;
+  font-size: 18px;
+  font-weight: 300;
+  color: #ffffff;
+  background: transparent;
+  opacity: .6;
+}
+#leave-message textarea.form-control{
+  margin-bottom: 30px;
+  min-height: 80px;
+}
+#leave-message input.form-control:hover, 
+#leave-message input.form-control:active, 
+#leave-message input.form-controll:focus,
+#leave-message textarea.form-control:hover, 
+#leave-message textarea.form-control:active, 
+#leave-message textarea.form-controll:focus{
+  background: #fff;
+  color: #212121;
+  opacity: 1;
+  font-size: 24px;
+  border: 1px solid #8c8c8c;
+  border-radius: 24px;
+}
+
+
+/*--   contact-address   --*/
+
+#contact-address{
+  background-color: #343446;
+}
+#contact-address .fa {
+  font-size: 26px;
+  line-height: 70px;
+  margin-bottom: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  background: transparent;
+  border: 1px solid #ffffff;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#contact-address .content{
+  padding: 2rem;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}
+#contact-address .content:hover .fa {
+  background-color: #FFB300;
+  color: #2C2C34;
+  border: 1px solid transparent;
+  transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+    -moz-transition: 0.3s all ease-in-out;
+    -o-transition: 0.3s all ease-in-out;
+    -ms-transition: 0.3s all ease-in-out;
+}

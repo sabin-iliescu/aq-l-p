@@ -1,0 +1,126 @@
+/*--   Hero Area   --*/
+section#hero-area {
+  padding-top: 16rem;
+  padding-bottom: 18rem;
+  background-image: url("../img/header-bg-10.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  background-attachment: scroll;
+}
+
+/*--   Counter   --*/
+#hero-area .countdown {
+  color: #212121;
+  text-align: center;
+  position: relative;
+  margin: 0px auto;
+}
+#hero-area .countdown span{
+  position: relative;
+  float: left;
+  margin: 0px 2%;
+  width: 21%;
+  text-align: center;
+  padding: 2rem;
+  background: #fafafa;
+}
+#hero-area .countdown span h2{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#hero-area .countdown span p{
+  margin: 0px;
+  color: #8c8c8c;
+}
+
+
+#hero-area .hero-text{
+  margin-top: 18rem;
+}
+#hero-area .hero-title{    
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 5.5rem;
+}
+#hero-area .hero-subtitle{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 3.2rem;
+  opacity: 0.5;
+  margin-bottom: 3rem;
+}
+#hero-area img.hero-img-right{
+  z-index: 5000;
+  position: absolute;
+  top: -70px;
+  max-width: 100%;
+}
+
+
+/*--   hero-area-responsive   --*/
+@media(min-width:1320px) {
+  section#hero-area{}
+  #hero-area img.hero-img-right{
+    top: -40px;
+  }
+}
+@media(max-width:1080px) {
+  section#hero-area {
+    padding-top: 20rem;
+    padding-bottom: 10rem;
+  }
+  #hero-area .hero-title{
+    font-size: 52px;
+    line-height: 62px;
+  }
+  #hero-area .hero-subtitle{
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media(max-width:840px) {
+  #hero-area .hero-text{
+    text-align: center;
+    padding: 0px 70px;
+  }
+  #hero-area .hero-title{
+    font-size: 48px;
+    line-height: 62px;
+  }
+  .hero-subtitle{
+    font-size: 16px;
+  }
+}
+@media(max-width:640px) {
+  section#hero-area {
+    padding-top: 15rem;
+    padding-bottom: 10rem;
+  }
+  #hero-area .hero-text{
+    margin-top: 0rem;
+    padding: 0px;
+  }
+  #hero-area .hero-title{
+    font-size: 42px;
+    line-height: 48px;
+    padding-top: 160px;
+  }
+  #hero-area .hero-text .btn{
+    margin-top: 20px;
+  }
+}
+@media(max-width:480px) {
+  #hero-area .hero-title{
+    font-size: 36px;
+    line-height: 42px;
+    padding-top: 300px;
+  }
+  #hero-area.hero-subtitle{
+    font-size: 12px;
+  }
+  #hero-area .countdown span{
+    width: 46%;
+    margin-bottom: 4%;
+  }
+}

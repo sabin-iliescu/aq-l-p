@@ -1,0 +1,141 @@
+/* --- Primary Theme Color is #AB47BC ---  */
+/* --- Secondery Color is #CE93D8 ---  */
+
+
+/* ---Buttons---  */
+.btn:hover, .btn:focus, .btn:active{
+  background: #AB47BC;
+  color: #2C2C34;
+}
+.btn-default{
+  background: #fff;
+  color: #2C2C34;
+  border: 2px solid transparent;
+}
+.btn-outline{
+  background: transparent;
+  color: #CE93D8;
+  border: 2px solid #CE93D8;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-outline:hover, .btn-outline:focus, .btn-outline:active{
+  background: #AB47BC;
+  color: #2C2C34;
+  border: 2px solid transparent;
+}
+.btn-primary{
+  background: #CE93D8;
+  color: #2C2C34;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active{
+  background: #AB47BC;
+}
+.btn-lg:hover, .btn-lg:focus, .btn-lg:active{}
+
+.btn-android{
+  background: #A5CA39;
+  color: #fff;
+}
+.btn-ios{
+  background: #FE2665;
+  color: #fff;
+}
+.btn-osx{
+  background: #1887F3;
+  color: #fff;
+}
+.btn-windows{
+  background: #02AEF0;
+  color: #fff;
+}
+
+/* ---nav-bar---  */
+.okayNav__menu-toggle span {
+  background: #AB47BC;
+}
+.okayNav__menu-toggle.icon--active span {
+  background: #AB47BC;
+}
+#nav-main li a.nav-link:hover, #nav-main li a.nav-link:focus, #nav-main li a.nav-link:active, #nav-main li.active a.nav-link {
+  border-bottom: 3px solid #AB47BC;
+  color: #AB47BC;
+}
+.sub-menu-panel{
+  border-top: 3px solid #AB47BC;
+  border-bottom: 3px solid #AB47BC;
+}
+li.sub-menu .sub-menu-panel a:hover, li.sub-menu .sub-menu-panel a:focus, li.sub-menu .sub-menu-panel a:active{
+  background: #AB47BC;
+}
+
+
+/* ---Input Field--- */
+input {
+  background: #f9f9f9;
+}
+input:hover, input:focus, input:active {
+  background: #fff;
+}
+
+
+/*--   Icon Font Color   --*/
+.content-icon .ico{
+  color: #CE93D8;
+}
+.content-icon .ico:hover{
+  color: #AB47BC;
+}
+
+/*--   Accordion   --*/
+button.accordion:hover, button.accordion.active:after {
+  background: #AB47BC !important;
+}
+
+
+/*--   contact-form   --*/
+
+#leave-message input.form-control, #leave-message textarea.form-control{
+  border-bottom: 1px solid #ffffff;
+  color: #ffffff;
+}
+#leave-message input.form-control:hover, 
+#leave-message input.form-control:active, 
+#leave-message input.form-controll:focus,
+#leave-message textarea.form-control:hover, 
+#leave-message textarea.form-control:active, 
+#leave-message textarea.form-controll:focus{
+  background: #fff;
+  color: #212121;
+  border: 1px solid #8c8c8c;
+}
+
+
+/*--   Counter   --*/
+#hero-area .countdown {
+  color: #AB47BC;
+}
+#hero-area .countdown span{
+  background: rgba(5, 5, 5, 0.2);
+}
+#hero-area .countdown span p{
+  color: #f9f9f9;
+}
+
+
+/* Footer  */
+footer {}
+footer li a{
+  color: #8C8C8C;
+}
+footer li a:hover{
+  color: #AB47BC;
+}
+footer .social-icons a:hover { 
+  background: #AB47BC;
+  color: #2C2C34;
+}
+
+
+/* contact page */
+#contact-address .content:hover .fa {
+  background-color: #AB47BC;
+}
