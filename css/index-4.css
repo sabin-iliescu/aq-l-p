@@ -286,6 +286,44 @@ section#ionizare-apa{
   .call-to-action .btn{
     margin: 0px 0px 20px 0px;
   }
+    h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    section#hero-area .calivita-hero-text h1 {
+        font-size: 2rem;
+        line-height: 2.2rem;
+        text-align: center;
+        padding: 20px;
+        opacity: 1;
+    }
+
+    section {
+        padding: 5px;
+    }
+
+    .call-to-action .hero-title {
+        font-size: 2rem;
+        font-weight: 100;
+        line-height: 2.2rem;
+    }
+
+    .feature-2 .content p {
+        padding-left: 0;
+    }
+
+    .features .feature-img-top{
+        position: relative;
+        left: -25%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .col-xs-12, .col-lg-6 {
+        padding-right: 2px;
+        padding-left: 2px;
+    }
 }
 
 
@@ -372,11 +410,42 @@ section#ionizare-apa{
 
 /*--   FAQ Responsive   --*/
 @media(max-width:640px) {
+    h2 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    section#hero-area .calivita-hero-text h1 {
+        font-size: 3rem;
+        line-height: 3.2rem;
+        text-align: center;
+        padding: 20px;
+        opacity: 1;
+    }
+
+    section {
+         padding: 5px;
+    }
+
+    .call-to-action .hero-title {
+        font-size: 3rem;
+        font-weight: 100;
+        line-height: 3.2rem;
+    }
+
+    .feature-2 .content p {
+        padding-left: 0;
+    }
+
+    .col-xs-12, .col-lg-6 {
+         padding-right: 2px;
+         padding-left: 2px;
+    }
 
     .features .feature-img-top{
         position: relative;
         left: -25%;
-        margin-top: -3rem;
+        margin-top: 2rem;
         margin-bottom: 2rem;
     }
 
