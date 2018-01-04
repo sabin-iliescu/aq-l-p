@@ -262,8 +262,8 @@ section#ionizare-apa{
   background: url("../img/apa-calivita-aqarion.jpg") no-repeat green;
   background-size: cover;
   background-position: center center;
-  padding-top: 16rem;
-  padding-bottom: 16rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .call-to-action .hero-title{    
     font-size: 6rem;
