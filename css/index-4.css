@@ -10,6 +10,15 @@ section#hero-area {
     background: green;
 }
 
+.numar-de-telefon a{
+    color: white
+}
+
+.disclaimer {
+    font-size: 10px;
+    line-height: 12px;
+}
+
 section#hero-area .calivita-hero-text h1 {
     font-size: 6rem;
     line-height: 6.2rem;
