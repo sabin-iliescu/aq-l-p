@@ -13,6 +13,21 @@ section#hero-area {
     background-color: lightseagreen;
 }
 
+.col-sm-8.pret-aquarion h4 {
+    font-style: italic;
+    font-size: 14px;
+}
+
+.col-sm-8.pret-aquarion .btn{
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.col-sm-8.pret-aquarion span{
+    font-size: 18px;
+}
+
 .calivita-hero-text {
     background: green;
 }
