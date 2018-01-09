@@ -6,6 +6,13 @@ section#hero-area {
   background-size: cover;
 }
 
+.col-sm-8.pret-aquarion {
+    border: 1px solid white;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: lightseagreen;
+}
+
 .calivita-hero-text {
     background: green;
 }
